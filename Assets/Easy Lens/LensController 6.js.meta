@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/ac19714c-2259-488f-b84d-64e49183c361>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f0c208fc-38bc-4db2-9799-53075bca2cae
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f0c208fc-38bc-4db2-9799-53075bca2cae
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> 95e21210-09c8-4f8f-bf05-703cdf6d5e90
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/95e21210-09c8-4f8f-bf05-703cdf6d5e90>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 92adc2ce-d8c7-47b1-be0d-10fd1f245a06
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    beatCanvas: false
+    gestureLabel: false
+    handTracking: false
+    touchEvents: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - beatCanvas: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      touchEvents: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      handTracking: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gestureLabel: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
