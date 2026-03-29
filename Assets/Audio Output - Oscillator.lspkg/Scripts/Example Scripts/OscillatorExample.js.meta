@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/b98d4fca-b371-3db9-fcbf-336e9383d5e9>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 4a1689ec-d989-4b74-83e4-57d154ec232e
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 4a1689ec-d989-4b74-83e4-57d154ec232e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 29YmHIkTLHyWhxGvIM9zAc
+  AssetDataMap:
+    JavaScriptAsset: !<own> 19ee2f9a-4c65-4bef-9240-1f1b59b15b86
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/19ee2f9a-4c65-4bef-9240-1f1b59b15b86>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 49585ec6-c79a-4305-896c-2eecc190b9ca
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    amplitudeText: false
+    frequencyText: false
+    waveformText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - frequencyText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      amplitudeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      waveformText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

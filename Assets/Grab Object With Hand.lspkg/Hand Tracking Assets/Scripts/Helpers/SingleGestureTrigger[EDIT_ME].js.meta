@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/ac6d2279-4145-7985-9fc3-739c0ffd1035>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> ad3ad391-973f-4970-a3d8-39890fd40fba
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> ad3ad391-973f-4970-a3d8-39890fd40fba
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 74KvpxwzBlXZ3pPQlnphK
+  AssetDataMap:
+    JavaScriptAsset: !<own> 07636cd0-dd15-4d12-98d6-b4e281dc6308
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/07636cd0-dd15-4d12-98d6-b4e281dc6308>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f6952096-013f-4a94-8f67-fd145d492027
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    gestureName: false
+    handType: false
+    hintText: false
+    logMessage: false
+    noGestureHint: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - handType: 0
+      hintText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      noGestureHint: ""
+      gestureName: ""
+      logMessage: false
+  ScriptTypes:
+    -
+      {}
