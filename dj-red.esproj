@@ -13,11 +13,7 @@ metaInfo:
     []
   tags:
     []
-<<<<<<<< HEAD:dj-red.esproj
-  lensName: DRAMA SCRATCH
-========
-  lensName: Pinch Beat Play
->>>>>>>> 0afe76945d4a803c6fd4cc0c4b71ee87d3cde86a:dj.esproj
+  lensName: DJ Lens
   lensDescriptors:
     []
   lensApplicableContext:
@@ -31,11 +27,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-<<<<<<<< HEAD:dj-red.esproj
   iconHash: cf555108464a7b16781c86c9dc0c1ef1
-========
-  iconHash: 12f96617c4b602e49d7bc4883eb8f909
->>>>>>>> 0afe76945d4a803c6fd4cc0c4b71ee87d3cde86a:dj.esproj
   videoPreviewHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.19.2.26031623
