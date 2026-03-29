@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/b97848fe-a8f8-4dcf-0495-2dfba5e5beb9>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f8439d60-c660-4eea-b6d2-72b487e016de
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f8439d60-c660-4eea-b6d2-72b487e016de
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 29YmHIkTLHyWhxGvIM9zAc
+  AssetDataMap:
+    JavaScriptAsset: !<own> e8ee3eea-3dd7-4a17-a4be-044980abd067
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/e8ee3eea-3dd7-4a17-a4be-044980abd067>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ca2fb20e-9b72-4046-91dd-7660126a533a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camera: false
+    control: false
+    intValue: false
+    onValueChanged: false
+    range: false
+    rangeMaxFloat: false
+    rangeMinFloat: false
+    scriptWithApi: false
+    settings: false
+    startValueFloat: false
+    startValueInt: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - control: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      intValue: 0
+      startValueFloat: 0.500000
+      rangeMinFloat: !<float> 0.000000
+      rangeMaxFloat: !<float> 1.000000
+      startValueInt: 0
+      range: 0
+      scriptWithApi: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onValueChanged: ""
+      settings: false
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

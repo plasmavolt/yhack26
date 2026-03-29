@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/068d7bb7-3bcb-446f-b90e-fb0c74659a4f>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 19
+    patch: 2
+    build: 26031623
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: "Provide a hand gesture recognition and triggering system, and custom feedback with behavior script based on currently detected hand gesture in screen."
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 92
+  ExportUid: a4f36ab0-ead2-4e23-9bb2-e845f0cc623f
+  ComponentUid: f9ef4cdb-2aa4-43e5-be83-7bbc3b4a4f03
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

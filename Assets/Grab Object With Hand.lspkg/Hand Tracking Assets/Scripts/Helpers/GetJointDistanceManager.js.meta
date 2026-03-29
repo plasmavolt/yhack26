@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/e89bfe86-570f-788c-91a1-7f078f6b2810>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> e3dbb263-e458-480b-9132-5a80e0b354e5
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> e3dbb263-e458-480b-9132-5a80e0b354e5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 74KvpxwzBlXZ3pPQlnphK
+  AssetDataMap:
+    JavaScriptAsset: !<own> 55b5f150-11d0-415b-8606-95c373ec89e0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/55b5f150-11d0-415b-8606-95c373ec89e0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1855fcca-818e-4f74-bcab-37d74e9ae27a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    defaultColor: false
+    gestureDetectedTrigger: false
+    gestureLostTrigger: false
+    jointDistanceScripts: false
+    logMessage: false
+    overwriteVisual: false
+    passColor: false
+    scriptContainer: false
+    sendTriggers: false
+    setTextColor: false
+    showVisualizer: false
+    useContainer: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - useContainer: false
+      scriptContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      jointDistanceScripts: !<reference.ScriptComponent[]>
+        []
+      overwriteVisual: false
+      showVisualizer: false
+      setTextColor: false
+      defaultColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      passColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      sendTriggers: false
+      gestureDetectedTrigger: ""
+      gestureLostTrigger: ""
+      logMessage: false
+  ScriptTypes:
+    -
+      {}

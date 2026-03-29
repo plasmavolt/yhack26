@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/62f75958-883f-c002-3dc2-e7a00f78e08c>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 6a20faef-def7-4e44-9efb-304e3dce0cf6
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 6a20faef-def7-4e44-9efb-304e3dce0cf6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 74KvpxwzBlXZ3pPQlnphK
+  AssetDataMap:
+    JavaScriptAsset: !<own> 8dc5531a-4855-4630-a422-fe1014d5a2f1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/8dc5531a-4855-4630-a422-fe1014d5a2f1>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f0430e0d-d293-4dec-90ce-a582ff6591b6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    boneIndicator: false
+    colorMode: false
+    handTracking: false
+    jointIndicators: false
+    jointStatsIndicator: false
+    showBones: false
+    showJoints: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - handTracking: !<reference.ObjectTracking3D> 00000000-0000-0000-0000-000000000000
+      showJoints: false
+      colorMode: 0
+      jointIndicators: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      jointStatsIndicator: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      showBones: false
+      boneIndicator: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
