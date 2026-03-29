@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 64
+    size: 63
     values:
       - Audio Output - Oscillator.lspkg/package.native
       - Echopark.hdr
@@ -66,5 +66,4 @@ CollapsedEntities:
       - Gesture Triggers 2.lspkg/package.native
       - Gesture Triggers.lspkg/package.native
       - Grab Object With Hand.lspkg/package.native
-      - Scene.scene
   options: 4
