@@ -1,4 +1,4 @@
-# Pinch Beat Play
+# DJ-on!
 
 A gesture-controlled DJ/beat-making AR Snapchat Lens built at YHack 2026. Use hand gestures to trigger drum sounds and visual effects in real time.
 
