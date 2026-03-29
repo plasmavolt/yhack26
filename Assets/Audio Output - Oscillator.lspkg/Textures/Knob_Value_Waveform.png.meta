@@ -1,4 +1,3 @@
-<<<<<<<< LOCAL
 - !<AssetImportMetadata/3bd522ee-1b79-46b9-aab3-82bdad7a6c69>
   ImportedAssetIds:
     Texture: !<reference> 5fa88bbc-586f-4ac1-91b4-57cf4d77bd69
@@ -8,17 +7,6 @@
   LegacyPackagePolicy: ~
   ExtraData:
     USE_EASY_LENS: ""
-========
-- !<AssetImportMetadata/7c780dec-90cd-ac8b-e8df-d793943957bd>
-  ImportedAssetIds:
-    Texture: !<reference> 681b1e21-80d2-4146-83c3-930e01002f41
-  ImporterName: FileTextureImporter
-  PrimaryAsset: !<reference> 681b1e21-80d2-4146-83c3-930e01002f41
-  PackageType: NotAPackage
-  LegacyPackagePolicy: ~
-  ExtraData:
-    AssetLibraryId: 29YmHIkTLHyWhxGvIM9zAc
->>>>>>>> REMOTE
   AssetDataMap:
     {}
   DependentFiles:

@@ -1,8 +1,4 @@
-<<<<<<<< LOCAL
 - !<AssetImportMetadata/aa463a84-5f11-4a50-9efd-193ab475c5f6>
-========
-- !<AssetImportMetadata/8cd70244-62f9-91f7-0a3c-0ff70712c5d5>
->>>>>>>> REMOTE
   ImportedAssetIds:
     FileAudioTrack: !<reference> a1edcdad-a1d6-41a4-a38c-1a3a4c0e6f01
   ImporterName: FileAudioTrackImporter
