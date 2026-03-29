@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/c4fc040c-9f70-4d5f-94e9-ba566520bcca>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 535b5472-d6b1-43c5-b718-2f9c5a09d619
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 535b5472-d6b1-43c5-b718-2f9c5a09d619
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> 9aa241eb-56bd-4df4-b17a-7b65e27f9b4d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/9aa241eb-56bd-4df4-b17a-7b65e27f9b4d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 538d2cab-c1f7-46c0-90d5-80a4143e629d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    canvas: false
+    cyberpunkGrade: false
+    gestureLabel: false
+    handTracking: false
+    musicNoteParticles: false
+    scratchBg: false
+    spriteManager: false
+    touchEvents: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - canvas: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      spriteManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      touchEvents: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      handTracking: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      cyberpunkGrade: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gestureLabel: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      musicNoteParticles: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      scratchBg: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

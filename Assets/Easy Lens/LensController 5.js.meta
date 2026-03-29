@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/aa0e74c2-7f65-441d-8424-ae93f453f7b8>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d60b80c7-4c12-44c9-987e-f27326dede59
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d60b80c7-4c12-44c9-987e-f27326dede59
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> 36aa10a3-4b54-48c6-bee7-08429c4757ff
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/36aa10a3-4b54-48c6-bee7-08429c4757ff>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3d53c2f5-23d9-4119-acf2-a44baf06ee60
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    airhornAudio: false
+    beatAudio: false
+    canvas: false
+    cyberpunkGrade: false
+    gestureLabel: false
+    handTracking: false
+    musicNoteParticles: false
+    raveNeonOverlay: false
+    scratchBg: false
+    spriteManager: false
+    touchEvents: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - canvas: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      spriteManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      raveNeonOverlay: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      touchEvents: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      handTracking: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      cyberpunkGrade: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      scratchBg: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gestureLabel: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      musicNoteParticles: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      beatAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      airhornAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

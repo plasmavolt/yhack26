@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/bbc7a4ce-e989-46af-85a9-be16675d20a7>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 0cdee694-b766-495e-8a1e-7120e32121ea
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 0cdee694-b766-495e-8a1e-7120e32121ea
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> 248fc5f5-41a9-46fa-bcde-43ba5ff4dbb1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/248fc5f5-41a9-46fa-bcde-43ba5ff4dbb1>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b3616ad7-29c3-46ef-bdec-d68c778da3aa
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    canvas: false
+    cyberpunkGrade: false
+    gestureLabel: false
+    handTracking: false
+    musicNoteParticles: false
+    spriteManager: false
+    touchEvents: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - canvas: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      spriteManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      touchEvents: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      handTracking: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      cyberpunkGrade: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gestureLabel: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      musicNoteParticles: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
