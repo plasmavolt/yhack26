@@ -3,6 +3,7 @@
   objects:
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
+<<<<<<< LOCAL
     - !<own> d82eb5b2-7b44-45dc-9e79-209bfa787d92
     - !<own> bba638ef-f3c2-4376-a82e-89a91adcd0fe
     - !<own> 012f587a-111e-43f4-b87b-b06b9676fdec
@@ -10,6 +11,16 @@
     - !<own> cb013bcf-cdba-4418-b90d-13d3a383c119
     - !<own> b7ea0b35-e520-482e-8240-78cee5a5ee96
     - !<own> 158651d8-0485-490c-90d7-3bfff2e7b898
+=======
+    - !<own> 258b0ac3-a493-4974-8778-a331e1b6f4fe
+    - !<own> a6154c00-3728-46e7-9c30-5538e6a7718c
+    - !<own> 7062963a-089d-4c1f-bc25-15296601e06c
+    - !<own> 80b6f8cf-6207-4dfe-ac54-9963767bd589
+    - !<own> 834eab91-ed6b-44bf-a4bd-2e505028e9c1
+    - !<own> 66f11b47-2864-408e-bc05-d453c1c05dfb
+    - !<own> 39e79e59-b481-4815-ab96-51364c407ed7
+    - !<own> 98b3ad56-8542-4a52-b9de-4dec62c90ad7
+>>>>>>> REMOTE
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       - id: 12
@@ -18,9 +29,12 @@
       - id: 13
         name: Layer 2
         color: 1
+<<<<<<< LOCAL
       - id: 9
         name: Layer 3
         color: 2
+=======
+>>>>>>> REMOTE
   RenderOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
   RenderPreviewOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
   RenderOverlayOutput: !<reference> 00000000-0000-0000-0000-000000000000
@@ -181,6 +195,7 @@
   FalloffType: None
   FalloffRange: .inf
   ShadowType: None
+<<<<<<< LOCAL
 - !<SceneObject/012f587a-111e-43f4-b87b-b06b9676fdec>
   PrefabRemaps:
     []
@@ -189,10 +204,28 @@
   Layers: 512
   LocalTransform: !<TransformEntity>
     Position: {x: -120.000000, y: 0.000000, z: 40.000000}
+=======
+- !<ScreenRegionComponent/0210e127-73a2-4e7f-9e3d-6929de379dd1>
+  PrefabRemaps:
+    []
+  Name: Screen Region
+  Enabled: true
+  ScreenRegionType: FullFrame
+  ResizeWithKeyboard: false
+- !<SceneObject/064d26f7-4fde-4c49-9caf-9aa03e646375>
+  PrefabRemaps:
+    []
+  Name: Hand Tracking
+  Enabled: true
+  Layers: 4096
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+>>>>>>> REMOTE
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
+<<<<<<< LOCAL
     - !<own> 7eb6d0b0-aa97-4f6a-bf74-d45a3e323e9a
   Components:
     - !<own> 092554bd-236b-4f9a-a208-1645dd70469b
@@ -314,13 +347,42 @@
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
   DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
 - !<Camera/092554bd-236b-4f9a-a208-1645dd70469b>
+=======
+    []
+  Components:
+    - !<own> 37fd5844-0114-41c0-9b8a-363d0abe45ff
+- !<AudioComponent/0c3c18ec-69c1-4722-9410-06469ff6d425>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 94280cec-410c-488c-aaa1-2984806b04ee
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<Camera/0c4025e2-1241-4c9f-ad9b-83ee49d21a41>
+>>>>>>> REMOTE
   PrefabRemaps:
     []
   Name: Camera
   Enabled: true
+<<<<<<< LOCAL
   renderLayer: 512
   MipmapLevel: 0
   RenderOrder: -10
+=======
+  renderLayer: 8192
+  MipmapLevel: 0
+  RenderOrder: 40
+>>>>>>> REMOTE
   Size: 20.000000
   Near: -1.000000
   Far: 200.000000
@@ -344,7 +406,11 @@
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
   DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
+<<<<<<< LOCAL
 - !<ScriptComponent/09a92e0b-17b6-4dae-beb8-5faf8fe5b02f>
+=======
+- !<ScriptComponent/1d99d970-f330-401e-9f05-08223b769072>
+>>>>>>> REMOTE
   PrefabRemaps:
     []
   Name: CanvasAPI
@@ -370,6 +436,7 @@
   ScriptTypes:
     "":
       {}
+<<<<<<< LOCAL
 - !<SceneObject/0a552411-df0c-46fb-8b9f-e8f3a0e34193>
   PrefabRemaps:
     []
@@ -387,6 +454,9 @@
     - !<own> 83b5fbab-3002-4fed-bb1a-1faf6decb9bf
     - !<own> d10d03de-634c-4748-bc09-93c1e5193633
 - !<ScreenTransform/0c8be345-8fa6-4368-9ee9-5225de72e964>
+=======
+- !<ScreenTransform/2203690d-fa2d-466a-9f67-c94727609e79>
+>>>>>>> REMOTE
   PrefabRemaps:
     []
   Name: Screen Transform
@@ -419,6 +489,7 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+<<<<<<< LOCAL
 - !<ScriptComponent/0e329ee6-d322-4c1c-9612-43e6c8f3bba7>
   PrefabRemaps:
     []
@@ -533,6 +604,12 @@
   PrefabRemaps:
     []
   Name: Main Controller
+=======
+- !<SceneObject/258b0ac3-a493-4974-8778-a331e1b6f4fe>
+  PrefabRemaps:
+    []
+  Name: Snare
+>>>>>>> REMOTE
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -543,11 +620,19 @@
   Children:
     []
   Components:
+<<<<<<< LOCAL
     - !<own> 8e7fa7e5-5e37-4956-9501-7de0281b0890
 - !<SceneObject/165cf65f-c2fe-450f-8c97-c11d54e48f89>
   PrefabRemaps:
     []
   Name: Decorative Camera Overlay
+=======
+    - !<own> acda1fac-5f61-4396-86f6-31fc2420aa79
+- !<SceneObject/26833a24-2977-49cc-8f75-fd43a4f2ab64>
+  PrefabRemaps:
+    []
+  Name: Canvas API
+>>>>>>> REMOTE
   Enabled: true
   Layers: 8192
   LocalTransform: !<TransformEntity>
@@ -558,6 +643,7 @@
   Children:
     []
   Components:
+<<<<<<< LOCAL
     - !<own> 33bd06cf-7021-4ba5-88aa-98d975610c92
     - !<own> ea9265e1-424e-4156-80a9-dd1aea5a0001
 - !<SceneObject/1e566c8a-770c-4863-937f-a13dc630f4ec>
@@ -566,27 +652,95 @@
   Name: Screen Particles
   Enabled: true
   Layers: 8192
+=======
+    - !<own> 5de7cdef-0aaf-4648-8fc9-04d36cc29de7
+    - !<own> 1d99d970-f330-401e-9f05-08223b769072
+- !<ScriptComponent/37fd5844-0114-41c0-9b8a-363d0abe45ff>
+  PrefabRemaps:
+    []
+  Name: Hand Tracking
+  Enabled: true
+  ScriptAsset: !<reference> 4d9826c7-7d93-432a-b6dd-73b32c774ace
+  ScriptInputsDefault:
+    handTrackingPfb: true
+    mirrorHands: true
+    leftHandDefaultJoint: true
+    rightHandDefaultJoint: true
+    advanced: true
+    debugGestures: true
+    gesturesToDebug: true
+    listEvents: true
+    enableSwipeDetection: true
+    swipeMinVelocity: true
+    swipeMinDistance: true
+    swipeTimeWindow: true
+    swipeCooldownTime: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      handTrackingPfb: !<reference.ObjectPrefab> 6df6cd90-9673-474b-88c6-f5110d24989f
+      occludeHands: false
+      mirrorHands: true
+      leftHandDefaultJoint: palm
+      rightHandDefaultJoint: palm
+      advanced: true
+      debugGestures: false
+      gesturesToDebug: !<string[]>
+        []
+      listEvents: false
+      enableSwipeDetection: true
+      swipeMinVelocity: 0.050000
+      swipeMinDistance: 0.100000
+      swipeTimeWindow: !<float> 500.000000
+      swipeCooldownTime: !<float> 1300.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/39e79e59-b481-4815-ab96-51364c407ed7>
+  PrefabRemaps:
+    []
+  Name: Scripts
+  Enabled: true
+  Layers: 1
+>>>>>>> REMOTE
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
+<<<<<<< LOCAL
     []
   Components:
     - !<own> 0c8be345-8fa6-4368-9ee9-5225de72e964
     - !<own> 0e329ee6-d322-4c1c-9612-43e6c8f3bba7
 - !<Camera/1ede5336-4436-487b-8780-f34e28ccf6ce>
+=======
+    - !<own> 85684651-c84e-4506-ba8c-91bbf17f1476
+  Components:
+    []
+- !<Camera/4f3aa9e2-d6a6-4e1e-a27d-7d9810a15170>
+>>>>>>> REMOTE
   PrefabRemaps:
     []
   Name: Camera
   Enabled: true
+<<<<<<< LOCAL
   renderLayer: 8192
   MipmapLevel: 0
   RenderOrder: 40
   Size: 20.000000
   Near: -1.000000
   Far: 200.000000
+=======
+  renderLayer: 4096
+  MipmapLevel: 0
+  RenderOrder: 20
+  Size: 20.000000
+  Near: 1.000000
+  Far: 1000.000000
+>>>>>>> REMOTE
   Fov: 63.541019
   ClearColor: !<CameraClearColor>
     Mode: None
@@ -597,7 +751,11 @@
     Value: 1.000000
     InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
   Aspect: 1.000000
+<<<<<<< LOCAL
   CameraType: Orthographic
+=======
+  CameraType: Perspective
+>>>>>>> REMOTE
   DepthMode: Regular
   DeviceProperty: All
   AspectPreset: Custom
@@ -607,6 +765,7 @@
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
   DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
+<<<<<<< LOCAL
 - !<Canvas/2b8eb06a-9b02-4f5f-ba9e-d7682487c4bc>
   PrefabRemaps:
     []
@@ -620,6 +779,9 @@
     right: 15.000000
     top: 20.000000
 - !<ScreenTransform/2eadf6f0-84cb-431a-a752-6f87177003cc>
+=======
+- !<ScreenTransform/5de7cdef-0aaf-4648-8fc9-04d36cc29de7>
+>>>>>>> REMOTE
   PrefabRemaps:
     []
   Name: Screen Transform
@@ -652,6 +814,7 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+<<<<<<< LOCAL
 - !<ScreenTransform/33bd06cf-7021-4ba5-88aa-98d975610c92>
   PrefabRemaps:
     []
@@ -693,10 +856,38 @@
   Layers: 512
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+=======
+- !<SceneObject/66e3480f-d1db-43d3-89a0-2585820c7dcb>
+  PrefabRemaps:
+    []
+  Name: Full Screen Region
+  Enabled: true
+  Layers: 8192
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
+    - !<own> 26833a24-2977-49cc-8f75-fd43a4f2ab64
+    - !<own> a3dc84af-fc8d-4a6c-ac8a-9af710a8771a
+  Components:
+    - !<own> 0210e127-73a2-4e7f-9e3d-6929de379dd1
+    - !<own> cd73a84c-0233-4af5-acdd-2466c274c9b3
+- !<SceneObject/66f11b47-2864-408e-bc05-d453c1c05dfb>
+  PrefabRemaps:
+    []
+  Name: 2D Foreground Camera
+  Enabled: true
+  Layers: 8192
+  LocalTransform: !<TransformEntity>
+    Position: {x: -120.000000, y: 0.000000, z: 40.000000}
+>>>>>>> REMOTE
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+<<<<<<< LOCAL
     []
   Components:
     - !<own> 2eadf6f0-84cb-431a-a752-6f87177003cc
@@ -1167,17 +1358,15 @@
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    - !<own> 79e1a8d1-d8b6-4544-9232-2c178dc869b5
+=======
+    - !<own> 66e3480f-d1db-43d3-89a0-2585820c7dcb
   Components:
-    []
-- !<SceneObject/bba638ef-f3c2-4376-a82e-89a91adcd0fe>
+    - !<own> 0c4025e2-1241-4c9f-ad9b-83ee49d21a41
+    - !<own> eb2f7339-80e3-479a-98b6-5dce09c58573
+- !<SceneObject/7062963a-089d-4c1f-bc25-15296601e06c>
   PrefabRemaps:
     []
-  Name: Beat
+  Name: Scratch
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -1188,6 +1377,63 @@
   Children:
     []
   Components:
+    - !<own> c94e7fa1-65bb-4d8f-9445-22b35cf6f99e
+- !<SceneObject/80b6f8cf-6207-4dfe-ac54-9963767bd589>
+  PrefabRemaps:
+    []
+  Name: HiHat
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b6d28560-ccbf-44e0-8cf1-14e5d03d1f8a
+- !<SceneObject/834eab91-ed6b-44bf-a4bd-2e505028e9c1>
+  PrefabRemaps:
+    []
+  Name: 3D Foreground Camera
+  Enabled: true
+  Layers: 4096
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 40.000000}
+>>>>>>> REMOTE
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+<<<<<<< LOCAL
+    - !<own> 79e1a8d1-d8b6-4544-9232-2c178dc869b5
+  Components:
+    []
+- !<SceneObject/bba638ef-f3c2-4376-a82e-89a91adcd0fe>
+  PrefabRemaps:
+    []
+  Name: Beat
+=======
+    - !<own> 064d26f7-4fde-4c49-9caf-9aa03e646375
+  Components:
+    - !<own> 4f3aa9e2-d6a6-4e1e-a27d-7d9810a15170
+- !<SceneObject/85684651-c84e-4506-ba8c-91bbf17f1476>
+  PrefabRemaps:
+    []
+  Name: Touch Events
+>>>>>>> REMOTE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+<<<<<<< LOCAL
     - !<own> dcec2455-262c-4008-9a61-d204f2149749
 - !<ScriptComponent/c185806e-3642-4d57-814a-5b27f2185497>
   PrefabRemaps:
@@ -1266,6 +1512,15 @@
   Name: Canvas API
   Enabled: true
   Layers: 8192
+=======
+    - !<own> bfed7793-2b1d-45ac-b594-faf80cc7bca9
+- !<SceneObject/98b3ad56-8542-4a52-b9de-4dec62c90ad7>
+  PrefabRemaps:
+    []
+  Name: Main Controller
+  Enabled: true
+  Layers: 1
+>>>>>>> REMOTE
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -1274,9 +1529,14 @@
   Children:
     []
   Components:
+<<<<<<< LOCAL
     - !<own> 4762e0c7-c658-42c7-8aae-4b46f237fc5e
     - !<own> 09a92e0b-17b6-4dae-beb8-5faf8fe5b02f
 - !<SceneObject/d374a862-0c6a-4796-8f0d-19f146215c37>
+=======
+    - !<own> c161c222-237c-43e0-a524-e8d3e1b74cf3
+- !<SceneObject/a3dc84af-fc8d-4a6c-ac8a-9af710a8771a>
+>>>>>>> REMOTE
   PrefabRemaps:
     []
   Name: Text On Screen
@@ -1290,12 +1550,21 @@
   Children:
     []
   Components:
+<<<<<<< LOCAL
     - !<own> 59363272-672f-413d-9036-673cce6fedd1
     - !<own> 770bfd0b-f8af-4ad3-8249-4c2ad14aa487
 - !<SceneObject/d82eb5b2-7b44-45dc-9e79-209bfa787d92>
   PrefabRemaps:
     []
   Name: Snare
+=======
+    - !<own> 2203690d-fa2d-466a-9f67-c94727609e79
+    - !<own> d6d85676-a90b-46ce-ad1c-60f3f6c55ebf
+- !<SceneObject/a6154c00-3728-46e7-9c30-5538e6a7718c>
+  PrefabRemaps:
+    []
+  Name: Beat
+>>>>>>> REMOTE
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -1306,13 +1575,22 @@
   Children:
     []
   Components:
+<<<<<<< LOCAL
     - !<own> de98d2e4-1ee8-4cc6-bc5d-5101da8b9069
 - !<AudioComponent/dcec2455-262c-4008-9a61-d204f2149749>
+=======
+    - !<own> 0c3c18ec-69c1-4722-9410-06469ff6d425
+- !<AudioComponent/acda1fac-5f61-4396-86f6-31fc2420aa79>
+>>>>>>> REMOTE
   PrefabRemaps:
     []
   Name: Audio
   Enabled: true
+<<<<<<< LOCAL
   AudioTrack: !<reference> a6482339-66fc-4b94-87ed-61ba1ee6ddfa
+=======
+  AudioTrack: !<reference> 85124e41-fd20-47be-9e65-2e67b798c2f3
+>>>>>>> REMOTE
   EnableAutoplayLoop: false
   Volume: 1.000000
   EnableMixToSnap: false
@@ -1324,12 +1602,20 @@
   MaxDistance: 100.000000
   EnableDirectivityEffect: false
   EnablePositionEffect: false
+<<<<<<< LOCAL
 - !<AudioComponent/de98d2e4-1ee8-4cc6-bc5d-5101da8b9069>
+=======
+- !<AudioComponent/b6d28560-ccbf-44e0-8cf1-14e5d03d1f8a>
+>>>>>>> REMOTE
   PrefabRemaps:
     []
   Name: Audio
   Enabled: true
+<<<<<<< LOCAL
   AudioTrack: !<reference> f48a28e0-e3db-4bb1-ae82-63d67f191929
+=======
+  AudioTrack: !<reference> a1edcdad-a1d6-41a4-a38c-1a3a4c0e6f01
+>>>>>>> REMOTE
   EnableAutoplayLoop: false
   Volume: 1.000000
   EnableMixToSnap: false
@@ -1341,6 +1627,7 @@
   MaxDistance: 100.000000
   EnableDirectivityEffect: false
   EnablePositionEffect: false
+<<<<<<< LOCAL
 - !<SceneObject/e0e75484-d27f-4c69-abd7-2c760b5ad7af>
   PrefabRemaps:
     []
@@ -1365,10 +1652,41 @@
   ScriptAsset: !<reference> b456ba93-3c68-4208-9cbf-65dc238ee5cc
   ScriptInputsDefault:
     bindingPrefab: true
+=======
+- !<ScriptComponent/bfed7793-2b1d-45ac-b594-faf80cc7bca9>
+  PrefabRemaps:
+    []
+  Name: Touch Events
+  Enabled: true
+  ScriptAsset: !<reference> 5a2f2b64-d1f5-43a1-aa4e-37987f02a29f
+  ScriptInputsDefault:
+    blockDefaultTouches: true
+    allowDoubleTap: true
+    enableHint: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
+      blockDefaultTouches: false
+      allowDoubleTap: false
+      enableHint: true
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/c161c222-237c-43e0-a524-e8d3e1b74cf3>
+  PrefabRemaps:
+    []
+  Name: LensController 7
+  Enabled: true
+  ScriptAsset: !<reference> 9fb09f36-86b5-42be-a18a-79431a68af69
+  ScriptInputsDefault:
+    {}
+>>>>>>> REMOTE
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+<<<<<<< LOCAL
       model: !<reference.ObjectPrefab> 0880f7e4-67ef-4305-ae19-375e6320a0ce
       bindingPrefab: !<reference.ObjectPrefab> 0c4ea1df-6c7f-41c8-8fea-d1875dc5a393
   ScriptTypes:
@@ -1408,6 +1726,37 @@
     right: 0.000000
     top: 0.000000
 - !<ScreenTransform/fa6e6561-aa51-4a60-950b-506706ab6f4e>
+=======
+      beatCanvas: !<reference.ScriptComponent> 1d99d970-f330-401e-9f05-08223b769072
+      touchEvents: !<reference.ScriptComponent> bfed7793-2b1d-45ac-b594-faf80cc7bca9
+      handTracking: !<reference.ScriptComponent> 37fd5844-0114-41c0-9b8a-363d0abe45ff
+      gestureLabel: !<reference.ScriptComponent> d6d85676-a90b-46ce-ad1c-60f3f6c55ebf
+      snare: !<reference.AudioComponent> acda1fac-5f61-4396-86f6-31fc2420aa79
+      beat: !<reference.AudioComponent> 0c3c18ec-69c1-4722-9410-06469ff6d425
+      scratch: !<reference.AudioComponent> c94e7fa1-65bb-4d8f-9445-22b35cf6f99e
+      hihat: !<reference.AudioComponent> b6d28560-ccbf-44e0-8cf1-14e5d03d1f8a
+  ScriptTypes:
+    "":
+      {}
+- !<AudioComponent/c94e7fa1-65bb-4d8f-9445-22b35cf6f99e>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 2eb47312-9e59-4bb7-9426-e587d1adcccf
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<ScreenTransform/cd73a84c-0233-4af5-acdd-2466c274c9b3>
+>>>>>>> REMOTE
   PrefabRemaps:
     []
   Name: Screen Transform
@@ -1440,3 +1789,120 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+<<<<<<< LOCAL
+=======
+- !<ScriptComponent/d6d85676-a90b-46ce-ad1c-60f3f6c55ebf>
+  PrefabRemaps:
+    []
+  Name: Screen Text
+  Enabled: true
+  ScriptAsset: !<reference> cd12a19b-183a-4064-a334-903f46b36efd
+  ScriptInputsDefault:
+    text: true
+    editable: true
+    font: true
+    alignment: true
+    rotation: true
+    color: true
+    outlineColor: true
+    backgroundEnabled: true
+    backgroundColor: true
+    backgroundScale: true
+    backgroundRoundness: true
+    shadowEnabled: true
+    shadowColor: true
+    shadowOffsetX: true
+    shadowOffsetY: true
+    textWrap: true
+    fonts: true
+    fontIcons: true
+    fontCategoryIcon: true
+    alignmentCategoryIcon: true
+    colorCategoryIcon: true
+    outlineThicknessCategoryIcon: true
+    outlineColorCategoryIcon: true
+    shadowColorCategoryIcon: true
+    shadowOffsetCategoryIcon: true
+    backgroundColorCategoryIcon: true
+    backgroundScaleCategoryIcon: true
+    editableCategoryIcon: true
+    alignmentIcons: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      blockId: gestureLabel
+      text: ""
+      editable: false
+      font: 1
+      alignment: 1
+      position: !<Vec2> {x: 0.500000, y: 0.680000}
+      size: 0.500000
+      rotation: !<float> 0.000000
+      color: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineEnabled: true
+      outlineColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      outlineThickness: 0.600000
+      backgroundEnabled: false
+      backgroundColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.500008}
+      backgroundScale: 0.100000
+      backgroundRoundness: 0.100000
+      shadowEnabled: false
+      shadowColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.500008}
+      shadowOffsetX: 0.250000
+      shadowOffsetY: 0.250000
+      textWrap: false
+      fonts: !<reference.Font[]>
+        - !<reference> da23445a-9797-459f-a4f4-4b226b5fcfb1
+        - !<reference> c5a6c1c0-99c2-4cdc-8bbc-ec4a2bf85adf
+        - !<reference> 84bfd7a2-1162-4da4-ad30-9f4670fce97e
+        - !<reference> 562e044c-8bb0-4fb4-88d7-e9c85e81a923
+        - !<reference> 28a4cfd6-f33e-4019-8e06-1fc6e399128d
+        - !<reference> df8d1d29-75ab-4ddd-a721-bb6fde84c68c
+        - !<reference> edeae323-8e2c-4987-83c9-ecac96ad46b6
+        - !<reference> c96fb750-f338-4bac-b0b4-a4e4d69a09dc
+        - !<reference> b7df1e21-525f-4046-96e8-3fa42a378f4e
+        - !<reference> 8383973d-a45f-451f-844e-41e2d16f5979
+        - !<reference> b66bb181-897e-46b8-af5f-4ebecc0cd029
+      fontIcons: !<reference.Texture[]>
+        - !<reference> ae61a3f8-dee5-4347-9405-251aff089a6c
+        - !<reference> 18090bc1-826f-4815-8d6f-589d7fb578a5
+        - !<reference> a627561c-8f18-4092-83a1-ef7161a0effe
+        - !<reference> 95702791-785c-470f-b93a-38d683af81af
+        - !<reference> 0a84f6e4-9481-43db-bb00-4fca63f4e10c
+        - !<reference> dfaef3e3-26e6-456d-a52b-91b0e2f946f6
+        - !<reference> efcfc962-cc48-41ee-9e93-95d6f02f9616
+        - !<reference> ba8439c5-924b-4850-803a-3e922ee468da
+        - !<reference> 849e73bb-82d2-4f19-9c97-3fa9073c1510
+        - !<reference> 28a66778-47fb-4e15-99a7-757c444ae194
+        - !<reference> 778c52ef-303b-43db-94f9-7082278b9e6b
+      fontCategoryIcon: !<reference.Texture> 99bb1547-a9c9-43dd-b01d-c8f698433d2e
+      alignmentCategoryIcon: !<reference.Texture> 9e563304-fd09-4f27-b1a3-bedefda2a4a5
+      colorCategoryIcon: !<reference.Texture> 077d6eca-a324-48c6-9f1f-a18f2763582b
+      outlineThicknessCategoryIcon: !<reference.Texture> 4bf3c4e9-3cee-46bb-82e0-d681ca38e539
+      outlineColorCategoryIcon: !<reference.Texture> 71bddd1f-08ef-4ed6-9388-1fdeed1992e2
+      shadowColorCategoryIcon: !<reference.Texture> da20a087-63fe-4c0f-aa00-bc5ab88768e6
+      shadowOffsetCategoryIcon: !<reference.Texture> 2cf1637b-bf91-4ec5-ab72-6d5a7bea08a7
+      backgroundColorCategoryIcon: !<reference.Texture> eb4907d0-ac52-4a2a-bcc1-aa2e3491bdf3
+      backgroundScaleCategoryIcon: !<reference.Texture> ce9b25ee-76c1-4ef7-96e0-d90a05360d3d
+      editableCategoryIcon: !<reference.Texture> 29e12b5c-eecc-4f68-b3a9-cf376f52db6a
+      alignmentIcons: !<reference.Texture[]>
+        - !<reference> 6a3a96a8-5de0-4aab-9110-847286d609ec
+        - !<reference> 41ec656b-d0d1-42f8-9e39-ec8dcd31d78b
+        - !<reference> 8502df1c-109e-4618-b271-d5f6a8b4866d
+  ScriptTypes:
+    "":
+      {}
+- !<Canvas/eb2f7339-80e3-479a-98b6-5dce09c58573>
+  PrefabRemaps:
+    []
+  Name: Canvas
+  Enabled: true
+  UnitType: World
+  SortingType: Hierarchy
+  WorldSpaceRect:
+    left: -15.000000
+    bottom: -20.000000
+    right: 15.000000
+    top: 20.000000
+>>>>>>> REMOTE

@@ -1,20 +1,36 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/c4fc040c-9f70-4d5f-94e9-ba566520bcca>
   ImportedAssetIds:
     JavaScriptAsset: !<reference> 535b5472-d6b1-43c5-b718-2f9c5a09d619
   ImporterName: JavaScriptAssetImporter
   PrimaryAsset: !<reference> 535b5472-d6b1-43c5-b718-2f9c5a09d619
+=======
+- !<AssetImportMetadata/6694b0db-628c-4dfb-9261-daee31a383f2>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d29cf511-73eb-4f99-818f-e0592887b84b
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d29cf511-73eb-4f99-818f-e0592887b84b
+>>>>>>> REMOTE
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
     USE_EASY_LENS: ""
   AssetDataMap:
+<<<<<<< LOCAL
     JavaScriptAsset: !<own> 9aa241eb-56bd-4df4-b17a-7b65e27f9b4d
+=======
+    JavaScriptAsset: !<own> 1b5c38cc-d60d-4bf9-b1e8-576c723d1dda
+>>>>>>> REMOTE
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+<<<<<<< LOCAL
 - !<ScriptAssetData/9aa241eb-56bd-4df4-b17a-7b65e27f9b4d>
+=======
+- !<ScriptAssetData/1b5c38cc-d60d-4bf9-b1e8-576c723d1dda>
+>>>>>>> REMOTE
   SvgIcon: ""
   SetupScript:
     code: ""
@@ -22,6 +38,7 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
+<<<<<<< LOCAL
   ComponentUid: 538d2cab-c1f7-46c0-90d5-80a4143e629d
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
@@ -33,6 +50,15 @@
     musicNoteParticles: false
     scratchBg: false
     spriteManager: false
+=======
+  ComponentUid: b62cea0f-01d4-4eec-91f1-89c29bc563d5
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    beatCanvas: false
+    gestureLabel: false
+    handTracking: false
+>>>>>>> REMOTE
     touchEvents: false
   ScriptTypesHidden:
     {}
@@ -43,6 +69,7 @@
   Attachments:
     []
   DefaultScriptInputs:
+<<<<<<< LOCAL
     - canvas: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       spriteManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       touchEvents: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
@@ -51,6 +78,12 @@
       gestureLabel: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       musicNoteParticles: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       scratchBg: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+=======
+    - beatCanvas: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      touchEvents: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      handTracking: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gestureLabel: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+>>>>>>> REMOTE
   ScriptTypes:
     -
       {}

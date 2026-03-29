@@ -1,20 +1,36 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/28a96c60-9d91-4d8e-a30f-200f426ec0fa>
   ImportedAssetIds:
     JavaScriptAsset: !<reference> c7e9e946-bfaa-4d2a-b353-bae9eff86b98
   ImporterName: JavaScriptAssetImporter
   PrimaryAsset: !<reference> c7e9e946-bfaa-4d2a-b353-bae9eff86b98
+=======
+- !<AssetImportMetadata/cac91c15-447c-4231-a6bd-f7d80f4a29a4>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 1cc33d98-60a2-4bd4-ae14-2476243cce14
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 1cc33d98-60a2-4bd4-ae14-2476243cce14
+>>>>>>> REMOTE
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
     USE_EASY_LENS: ""
   AssetDataMap:
+<<<<<<< LOCAL
     JavaScriptAsset: !<own> 653625d6-9675-4029-8560-c6ef13f553c8
+=======
+    JavaScriptAsset: !<own> be03671d-07da-4c8b-97e9-21d0a920283d
+>>>>>>> REMOTE
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+<<<<<<< LOCAL
 - !<ScriptAssetData/653625d6-9675-4029-8560-c6ef13f553c8>
+=======
+- !<ScriptAssetData/be03671d-07da-4c8b-97e9-21d0a920283d>
+>>>>>>> REMOTE
   SvgIcon: ""
   SetupScript:
     code: ""
@@ -22,6 +38,7 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
+<<<<<<< LOCAL
   ComponentUid: fd64f8d3-0066-44b9-9a11-aa805af29512
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
@@ -36,6 +53,15 @@
     raveNeonOverlay: false
     scratchBg: false
     spriteManager: false
+=======
+  ComponentUid: 50e14d03-c915-442b-bc91-e82545735743
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    beatCanvas: false
+    gestureLabel: false
+    handTracking: false
+>>>>>>> REMOTE
     touchEvents: false
   ScriptTypesHidden:
     {}
@@ -46,6 +72,7 @@
   Attachments:
     []
   DefaultScriptInputs:
+<<<<<<< LOCAL
     - canvas: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       spriteManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       raveNeonOverlay: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
@@ -57,6 +84,12 @@
       musicNoteParticles: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       beatAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
       airhornAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+=======
+    - beatCanvas: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      touchEvents: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      handTracking: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gestureLabel: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+>>>>>>> REMOTE
   ScriptTypes:
     -
       {}
