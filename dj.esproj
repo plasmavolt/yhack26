@@ -13,7 +13,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: Untitled
+  lensName: Pinch Beat Play
   lensDescriptors:
     []
   lensApplicableContext:
@@ -27,7 +27,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: ""
+  iconHash: 12f96617c4b602e49d7bc4883eb8f909
   videoPreviewHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.19.2.26031623
@@ -45,7 +45,7 @@ metaInfo:
     minor: 0
     patch: 0
     build: 0
-  documentId: f3d524c5-ac07-44a7-b03a-e07d591396ec
+  documentId: 1cc362a3-a43f-4702-b8d4-95e7aaeb4b84
   originalDocumentId: f3d524c5-ac07-44a7-b03a-e07d591396ec
   packageId: ""
   packageVersion: ""

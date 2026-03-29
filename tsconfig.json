@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "isolatedModules": true,
+    "lib": [
+      "es2021"
+    ],
+    "module": "commonjs",
+    "noEmit": true,
+    "paths": {
+      "*": [
+        "./Assets/*",
+        "./Packages/*",
+        "./Cache/TypeScript/Src/Packages/*"
+      ],
+      "/Scripts/CanvasAPI_5.14.lsc/*": [
+        "./Assets/Scripts/CanvasAPI_5.14.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/CanvasAPI_5.14.lsc/*"
+      ],
+      "/Scripts/Hand_Tracking.lsc/*": [
+        "./Assets/Scripts/Hand_Tracking.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/Hand_Tracking.lsc/*"
+      ],
+      "/Scripts/Screen Text_5.12.lsc/*": [
+        "./Assets/Scripts/Screen Text_5.12.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/Screen Text_5.12.lsc/*"
+      ],
+      "/Scripts/SpriteManager_5.14.lsc/*": [
+        "./Assets/Scripts/SpriteManager_5.14.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/SpriteManager_5.14.lsc/*"
+      ],
+      "/Scripts/Touch Events_5.11.lsc/*": [
+        "./Assets/Scripts/Touch Events_5.11.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/Touch Events_5.11.lsc/*"
+      ]
+    },
+    "skipDefaultLibCheck": true,
+    "target": "es2021",
+    "types": []
+  },
+  "exclude": [
+    "node_modules/typescript/lib/lib.dom.d.ts"
+  ],
+  "include": [
+    "./Cache/TypeScript/lib/LensifyTS/Declarations/**/*.d.ts",
+    "./Assets/**/*.ts",
+    "./Packages/**/*.ts",
+    "./Cache/TypeScript/Src/Packages/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/Hand_Tracking.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/Touch Events_5.11.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/Screen Text_5.12.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/CanvasAPI_5.14.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/SpriteManager_5.14.lsc/**/*.ts"
+  ]
+}

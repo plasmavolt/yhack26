@@ -1,0 +1,27 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 21
+    values:
+      - Audio/beat.mp3
+      - Audio/hihat.mp3
+      - Audio/scratch.mp3
+      - Audio/snare.mp3
+      - Easy Lens/LensController 2.js
+      - Easy Lens/LensController 3.js
+      - Easy Lens/LensController 4.js
+      - Easy Lens/LensController 5.js
+      - Easy Lens/LensController 6.js
+      - Easy Lens/LensController 7.js
+      - Easy Lens/LensController.js
+      - Echopark.hdr
+      - Other Resources
+      - Render Targets
+      - Scripts
+      - Scripts/CanvasAPI_5.14.lsc
+      - Scripts/Hand_Tracking.lsc
+      - Scripts/LensController.js
+      - Scripts/Screen Text_5.12.lsc
+      - Scripts/SpriteManager_5.14.lsc
+      - Scripts/Touch Events_5.11.lsc
+  options: 4
