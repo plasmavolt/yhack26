@@ -8887,7 +8887,7 @@
   PrefabRemaps:
     []
   Name: two_finger_pointer
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -11516,7 +11516,7 @@
   PrefabRemaps:
     []
   Name: three
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
