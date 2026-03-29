@@ -1,0 +1,40 @@
+- !<NativePackageDescriptor/d2c92f65-91dd-4eed-9332-57af0428921a>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 19
+    patch: 2
+    build: 26031623
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    Allows you to generate a sound wave with a certain form, amplitude and frequency. Drag knob and slider controls in the Preview Panel to change parameters.
+    
+    https://docs.snap.com/lens-studio/essential-skills/audio/audio-templates/audio-output#oscillator
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 92
+  ExportUid: e1d16e30-2454-4431-b435-7598c5c9edb1
+  ComponentUid: b90feff6-c0b3-4e51-b736-f63b8b20c0a0
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

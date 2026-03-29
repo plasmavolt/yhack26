@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/fb40b746-4bda-e6a9-8409-d36643049c5f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 3a6f4b0d-5418-421b-82f1-f06b16762bea
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 3a6f4b0d-5418-421b-82f1-f06b16762bea
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 29YmHIkTLHyWhxGvIM9zAc
+  AssetDataMap:
+    JavaScriptAsset: !<own> 803dff5e-60c2-4a50-b308-9a5266175545
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/803dff5e-60c2-4a50-b308-9a5266175545>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9e4c0633-b292-44d4-945d-7ed1493c2dcf
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    audioFrameProvider: false
+    frameSize: false
+    proxyTexture: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - audioFrameProvider: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      proxyTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      frameSize: 512
+  ScriptTypes:
+    -
+      {}

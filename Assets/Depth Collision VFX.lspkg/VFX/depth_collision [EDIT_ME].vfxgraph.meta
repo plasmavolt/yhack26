@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/2c704cc9-8563-1841-1330-742095b2ab34>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 3a0495f4-662a-4a89-a223-a451a75f3062
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 3a0495f4-662a-4a89-a223-a451a75f3062
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 6NjJBEqemr0aaRo7vSN7Cf
+  AssetDataMap:
+    VFXGraph: !<own> 8935318e-0362-4c38-bddf-9c6cbd564fd4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXAssetData/8935318e-0362-4c38-bddf-9c6cbd564fd4>
+  SystemPassProperties:
+    0: !<VFXSystemPassProperties>
+      PassPropertiesMap:
+        render_0_0: !<VFXPassProperties>
+          PropertyMap:
+            {}
+          Defines:
+            []
+          Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+        simulate_0: !<VFXPassProperties>
+          PropertyMap:
+            depthTexture:
+              typeIdx: 9
+              value:
+                id: 5389adb3-7bcc-493f-a5bf-3771106e8204
+                sampler:
+                  filteringMode: Trilinear
+                  wrapModeU: Repeat
+                  wrapModeV: Repeat
+                  wrapModeW: Repeat
+                  borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+                  mipmaps: false
+                type: Texture2D
+            screenNormalsTex:
+              typeIdx: 9
+              value:
+                id: 6986e356-9616-4f64-8711-b489a546b19f
+                sampler:
+                  filteringMode: Trilinear
+                  wrapModeU: ClampToEdge
+                  wrapModeV: ClampToEdge
+                  wrapModeW: ClampToEdge
+                  borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+                  mipmaps: false
+                type: Texture2D
+          Defines:
+            []
+          Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+        feedback_0: !<VFXPassProperties>
+          PropertyMap:
+            {}
+          Defines:
+            []
+          Mesh: !<reference> 00000000-0000-0000-0000-000000000000

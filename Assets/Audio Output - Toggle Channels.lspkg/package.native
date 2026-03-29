@@ -1,0 +1,40 @@
+- !<NativePackageDescriptor/2e66bc17-f24b-42be-bf04-8c87c3af550c>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 19
+    patch: 2
+    build: 26031623
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    This  package allows you to read audio samples from multiple audio track files and play them simultaneously. This package solves a problem of aligning audio clips perfectly.
+    
+    https://docs.snap.com/lens-studio/essential-skills/audio/audio-templates/audio-output
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 92
+  ExportUid: 46c752e9-2fb7-4422-ade4-a83031f72bf6
+  ComponentUid: e2754177-9168-4668-9901-3d082369c56b
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
