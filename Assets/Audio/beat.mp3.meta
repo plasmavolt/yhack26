@@ -1,8 +1,16 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/2a4fde4b-ce7b-4d09-97ba-58c41e95fd6e>
   ImportedAssetIds:
     FileAudioTrack: !<reference> a6482339-66fc-4b94-87ed-61ba1ee6ddfa
   ImporterName: FileAudioTrackImporter
   PrimaryAsset: !<reference> a6482339-66fc-4b94-87ed-61ba1ee6ddfa
+=======
+- !<AssetImportMetadata/ec7b8d72-4a49-4592-8a0f-e51eacf51f29>
+  ImportedAssetIds:
+    FileAudioTrack: !<reference> 94280cec-410c-488c-aaa1-2984806b04ee
+  ImporterName: FileAudioTrackImporter
+  PrimaryAsset: !<reference> 94280cec-410c-488c-aaa1-2984806b04ee
+>>>>>>> REMOTE
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
