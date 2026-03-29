@@ -13,23 +13,23 @@
         "./Packages/*",
         "./Cache/TypeScript/Src/Packages/*"
       ],
-      "/Scripts/CanvasAPI_5.14.lsc/*": [
+      "Scripts/CanvasAPI_5.14.lsc/*": [
         "./Assets/Scripts/CanvasAPI_5.14.lsc/*",
         "./Cache/TypeScript/Src/Assets/Scripts/CanvasAPI_5.14.lsc/*"
       ],
-      "/Scripts/Hand_Tracking.lsc/*": [
+      "Scripts/Hand_Tracking.lsc/*": [
         "./Assets/Scripts/Hand_Tracking.lsc/*",
         "./Cache/TypeScript/Src/Assets/Scripts/Hand_Tracking.lsc/*"
       ],
-      "/Scripts/Screen Text_5.12.lsc/*": [
+      "Scripts/Screen Text_5.12.lsc/*": [
         "./Assets/Scripts/Screen Text_5.12.lsc/*",
         "./Cache/TypeScript/Src/Assets/Scripts/Screen Text_5.12.lsc/*"
       ],
-      "/Scripts/SpriteManager_5.14.lsc/*": [
+      "Scripts/SpriteManager_5.14.lsc/*": [
         "./Assets/Scripts/SpriteManager_5.14.lsc/*",
         "./Cache/TypeScript/Src/Assets/Scripts/SpriteManager_5.14.lsc/*"
       ],
-      "/Scripts/Touch Events_5.11.lsc/*": [
+      "Scripts/Touch Events_5.11.lsc/*": [
         "./Assets/Scripts/Touch Events_5.11.lsc/*",
         "./Cache/TypeScript/Src/Assets/Scripts/Touch Events_5.11.lsc/*"
       ]
