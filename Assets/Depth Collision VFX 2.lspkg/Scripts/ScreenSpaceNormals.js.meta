@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/337a00b0-dc7b-4e08-f87d-c9d8a0bb9022>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> a8626af4-77a6-41aa-bfcb-67bbd9b890dc
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> a8626af4-77a6-41aa-bfcb-67bbd9b890dc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 6NjJBEqemr0aaRo7vSN7Cf
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4c3eefd9-c9bb-4859-b3a4-e25c6fb9c93b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4c3eefd9-c9bb-4859-b3a4-e25c6fb9c93b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: fce6df81-6a65-4df0-801c-ce59c54e2c04
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    FixDelay: false
+    advanced: false
+    blurMat: false
+    blurStrength: false
+    depthTarget: false
+    depthtoNormal: false
+    enableBlur: false
+    mainCamera: false
+    normalsTarget: false
+    objectsForNormalsGen: false
+    screenTex: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - objectsForNormalsGen: !<reference.SceneObject[]>
+        []
+      FixDelay: false
+      advanced: false
+      enableBlur: false
+      blurStrength: !<float> 4.000000
+      mainCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      normalsTarget: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      depthTarget: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      screenTex: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      depthtoNormal: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      blurMat: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

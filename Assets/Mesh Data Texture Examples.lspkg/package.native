@@ -1,0 +1,41 @@
+- !<NativePackageDescriptor/6e26a6fe-a40b-4bf7-aedc-8196ac0f9811>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 19
+    patch: 2
+    build: 26031623
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    Showcase examples of how to use Mesh Data Texture script.
+    
+    For more information, check out Mesh Data Texture Guide
+    https://developers.snap.com/lens-studio/features/graphics/mesh-data-texture
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 92
+  ExportUid: 5ba798b8-798d-4c3d-b09e-60ec6ee9d26f
+  ComponentUid: aa97537d-ca84-4043-9b31-1994d68974c8
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
