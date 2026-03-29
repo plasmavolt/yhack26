@@ -1,27 +1,70 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 21
+    size: 64
     values:
-      - Audio/beat.mp3
-      - Audio/hihat.mp3
-      - Audio/scratch.mp3
-      - Audio/snare.mp3
-      - Easy Lens/LensController 2.js
-      - Easy Lens/LensController 3.js
-      - Easy Lens/LensController 4.js
-      - Easy Lens/LensController 5.js
-      - Easy Lens/LensController 6.js
-      - Easy Lens/LensController 7.js
-      - Easy Lens/LensController.js
+      - Audio Output - Oscillator.lspkg/package.native
       - Echopark.hdr
-      - Other Resources
-      - Render Targets
-      - Scripts
-      - Scripts/CanvasAPI_5.14.lsc
-      - Scripts/Hand_Tracking.lsc
-      - Scripts/LensController.js
-      - Scripts/Screen Text_5.12.lsc
-      - Scripts/SpriteManager_5.14.lsc
-      - Scripts/Touch Events_5.11.lsc
+      - Gesture Triggers 2.lspkg
+      - Gesture Triggers 2.lspkg/Fonts
+      - Gesture Triggers 2.lspkg/Fonts/Righteous-Regular.ttf
+      - Gesture Triggers 2.lspkg/Gesture Trigger__PUT_UNDER_MAIN_CAM.prefab
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Left Hand Tracking Asset.handTracking3D
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Materials
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Materials/Bones
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Materials/Bones/Bone.mat
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Materials/Bones/blue.mat
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Materials/Bones/green.mat
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Materials/Bones/orange.mat
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Materials/Bones/pink.mat
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Materials/Bones/red.mat
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Materials/Bones/yellow.mat
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Materials/Hand Hint PBR 2.mat
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Materials/Hand Hint PBR 3.mat
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Materials/Hand Hint PBR.mat
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Materials/Indicator Line.mat
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Models
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Models/RightHandModel
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Models/RightHandModel/Meshes
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Models/RightHandModel/Meshes/RightHandMesh.mesh
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Right Hand Tracking Asset.handTracking3D
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Scripts
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Scripts/GlobalTrackingHelper.js
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Scripts/HandTrackingController.js
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Scripts/Helpers
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Scripts/Helpers/GetJointDistance.js
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Scripts/Helpers/GetJointDistanceManager.js
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Shaders
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Shaders/Bone.ss_graph
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Shaders/Hand Hint PBR.ss_graph
+      - Gesture Triggers 2.lspkg/Hand Tracking Assets/Shaders/Indicator Line.ss_graph
+      - Gesture Triggers 2.lspkg/Models
+      - Gesture Triggers 2.lspkg/Models/Connector.mesh
+      - Gesture Triggers 2.lspkg/Models/Plane.mesh
+      - Gesture Triggers 2.lspkg/Models/Sphere.mesh
+      - Gesture Triggers 2.lspkg/Scripts
+      - Gesture Triggers 2.lspkg/Scripts/Behavior.lsc
+      - Gesture Triggers 2.lspkg/Scripts/Tween
+      - Gesture Triggers 2.lspkg/Scripts/Tween/Tween.lsc
+      - Gesture Triggers 2.lspkg/Scripts/Tween/TweenManager.lsc
+      - Gesture Triggers 2.lspkg/Scripts/Tween/TweenTypes
+      - Gesture Triggers 2.lspkg/Scripts/Tween/TweenTypes/TweenAlpha.lsc
+      - Gesture Triggers 2.lspkg/Scripts/Tween/TweenTypes/TweenValue.lsc
+      - Gesture Triggers 2.lspkg/Sounds
+      - Gesture Triggers 2.lspkg/Sounds/RainDrop-01.mp3
+      - Gesture Triggers 2.lspkg/Sounds/RainDrop-03.mp3
+      - Gesture Triggers 2.lspkg/Sounds/RainDrop-04.mp3
+      - Gesture Triggers 2.lspkg/Sounds/RainDrop-06.mp3
+      - Gesture Triggers 2.lspkg/Sounds/RainDrop-07.mp3
+      - Gesture Triggers 2.lspkg/Sounds/RainDrop-09.mp3
+      - Gesture Triggers 2.lspkg/Sounds/RainDrop-10.mp3
+      - Gesture Triggers 2.lspkg/Sounds/RainDrop-11.mp3
+      - Gesture Triggers 2.lspkg/Sounds/RainDrop-12.mp3
+      - Gesture Triggers 2.lspkg/Textures
+      - Gesture Triggers 2.lspkg/Textures/Base.png
+      - Gesture Triggers 2.lspkg/package.native
+      - Gesture Triggers.lspkg/package.native
+      - Grab Object With Hand.lspkg/package.native
+      - Scene.scene
   options: 4

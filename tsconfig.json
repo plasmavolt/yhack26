@@ -13,23 +13,83 @@
         "./Packages/*",
         "./Cache/TypeScript/Src/Packages/*"
       ],
-      "/Scripts/CanvasAPI_5.14.lsc/*": [
+      "Audio Output - Oscillator.lspkg/Scripts/Helpers/Behavior.lsc/*": [
+        "./Assets/Audio Output - Oscillator.lspkg/Scripts/Helpers/Behavior.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Audio Output - Oscillator.lspkg/Scripts/Helpers/Behavior.lsc/*"
+      ],
+      "Gesture Triggers 2.lspkg/Scripts/Behavior.lsc/*": [
+        "./Assets/Gesture Triggers 2.lspkg/Scripts/Behavior.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Gesture Triggers 2.lspkg/Scripts/Behavior.lsc/*"
+      ],
+      "Gesture Triggers 2.lspkg/Scripts/Tween/Tween.lsc/*": [
+        "./Assets/Gesture Triggers 2.lspkg/Scripts/Tween/Tween.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Gesture Triggers 2.lspkg/Scripts/Tween/Tween.lsc/*"
+      ],
+      "Gesture Triggers 2.lspkg/Scripts/Tween/TweenManager.lsc/*": [
+        "./Assets/Gesture Triggers 2.lspkg/Scripts/Tween/TweenManager.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Gesture Triggers 2.lspkg/Scripts/Tween/TweenManager.lsc/*"
+      ],
+      "Gesture Triggers 2.lspkg/Scripts/Tween/TweenTypes/TweenAlpha.lsc/*": [
+        "./Assets/Gesture Triggers 2.lspkg/Scripts/Tween/TweenTypes/TweenAlpha.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Gesture Triggers 2.lspkg/Scripts/Tween/TweenTypes/TweenAlpha.lsc/*"
+      ],
+      "Gesture Triggers 2.lspkg/Scripts/Tween/TweenTypes/TweenValue.lsc/*": [
+        "./Assets/Gesture Triggers 2.lspkg/Scripts/Tween/TweenTypes/TweenValue.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Gesture Triggers 2.lspkg/Scripts/Tween/TweenTypes/TweenValue.lsc/*"
+      ],
+      "Gesture Triggers.lspkg/Scripts/Behavior.lsc/*": [
+        "./Assets/Gesture Triggers.lspkg/Scripts/Behavior.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Gesture Triggers.lspkg/Scripts/Behavior.lsc/*"
+      ],
+      "Gesture Triggers.lspkg/Scripts/Tween/Tween.lsc/*": [
+        "./Assets/Gesture Triggers.lspkg/Scripts/Tween/Tween.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Gesture Triggers.lspkg/Scripts/Tween/Tween.lsc/*"
+      ],
+      "Gesture Triggers.lspkg/Scripts/Tween/TweenManager.lsc/*": [
+        "./Assets/Gesture Triggers.lspkg/Scripts/Tween/TweenManager.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Gesture Triggers.lspkg/Scripts/Tween/TweenManager.lsc/*"
+      ],
+      "Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenAlpha.lsc/*": [
+        "./Assets/Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenAlpha.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenAlpha.lsc/*"
+      ],
+      "Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenValue.lsc/*": [
+        "./Assets/Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenValue.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenValue.lsc/*"
+      ],
+      "Grab Object With Hand.lspkg/Scripts/Behavior.lsc/*": [
+        "./Assets/Grab Object With Hand.lspkg/Scripts/Behavior.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Grab Object With Hand.lspkg/Scripts/Behavior.lsc/*"
+      ],
+      "Grab Object With Hand.lspkg/Scripts/Tween/Tween.lsc/*": [
+        "./Assets/Grab Object With Hand.lspkg/Scripts/Tween/Tween.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Grab Object With Hand.lspkg/Scripts/Tween/Tween.lsc/*"
+      ],
+      "Grab Object With Hand.lspkg/Scripts/Tween/TweenManager.lsc/*": [
+        "./Assets/Grab Object With Hand.lspkg/Scripts/Tween/TweenManager.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Grab Object With Hand.lspkg/Scripts/Tween/TweenManager.lsc/*"
+      ],
+      "Grab Object With Hand.lspkg/Scripts/Tween/TweenTypes/TweenTransform.lsc/*": [
+        "./Assets/Grab Object With Hand.lspkg/Scripts/Tween/TweenTypes/TweenTransform.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Grab Object With Hand.lspkg/Scripts/Tween/TweenTypes/TweenTransform.lsc/*"
+      ],
+      "Scripts/CanvasAPI_5.14.lsc/*": [
         "./Assets/Scripts/CanvasAPI_5.14.lsc/*",
         "./Cache/TypeScript/Src/Assets/Scripts/CanvasAPI_5.14.lsc/*"
       ],
-      "/Scripts/Hand_Tracking.lsc/*": [
+      "Scripts/Hand_Tracking.lsc/*": [
         "./Assets/Scripts/Hand_Tracking.lsc/*",
         "./Cache/TypeScript/Src/Assets/Scripts/Hand_Tracking.lsc/*"
       ],
-      "/Scripts/Screen Text_5.12.lsc/*": [
+      "Scripts/Screen Text_5.12.lsc/*": [
         "./Assets/Scripts/Screen Text_5.12.lsc/*",
         "./Cache/TypeScript/Src/Assets/Scripts/Screen Text_5.12.lsc/*"
       ],
-      "/Scripts/SpriteManager_5.14.lsc/*": [
+      "Scripts/SpriteManager_5.14.lsc/*": [
         "./Assets/Scripts/SpriteManager_5.14.lsc/*",
         "./Cache/TypeScript/Src/Assets/Scripts/SpriteManager_5.14.lsc/*"
       ],
-      "/Scripts/Touch Events_5.11.lsc/*": [
+      "Scripts/Touch Events_5.11.lsc/*": [
         "./Assets/Scripts/Touch Events_5.11.lsc/*",
         "./Cache/TypeScript/Src/Assets/Scripts/Touch Events_5.11.lsc/*"
       ]
@@ -47,9 +107,24 @@
     "./Packages/**/*.ts",
     "./Cache/TypeScript/Src/Packages/**/*.ts",
     "./Cache/TypeScript/Src/Assets/Scripts/Hand_Tracking.lsc/**/*.ts",
-    "./Cache/TypeScript/Src/Assets/Scripts/Touch Events_5.11.lsc/**/*.ts",
     "./Cache/TypeScript/Src/Assets/Scripts/Screen Text_5.12.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/SpriteManager_5.14.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Gesture Triggers 2.lspkg/Scripts/Behavior.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Gesture Triggers 2.lspkg/Scripts/Tween/Tween.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Gesture Triggers 2.lspkg/Scripts/Tween/TweenTypes/TweenValue.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Grab Object With Hand.lspkg/Scripts/Behavior.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Grab Object With Hand.lspkg/Scripts/Tween/Tween.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Grab Object With Hand.lspkg/Scripts/Tween/TweenManager.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Grab Object With Hand.lspkg/Scripts/Tween/TweenTypes/TweenTransform.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Gesture Triggers.lspkg/Scripts/Behavior.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Gesture Triggers.lspkg/Scripts/Tween/Tween.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenAlpha.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/Touch Events_5.11.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Gesture Triggers 2.lspkg/Scripts/Tween/TweenTypes/TweenAlpha.lsc/**/*.ts",
     "./Cache/TypeScript/Src/Assets/Scripts/CanvasAPI_5.14.lsc/**/*.ts",
-    "./Cache/TypeScript/Src/Assets/Scripts/SpriteManager_5.14.lsc/**/*.ts"
+    "./Cache/TypeScript/Src/Assets/Gesture Triggers.lspkg/Scripts/Tween/TweenTypes/TweenValue.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Audio Output - Oscillator.lspkg/Scripts/Helpers/Behavior.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Gesture Triggers.lspkg/Scripts/Tween/TweenManager.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Gesture Triggers 2.lspkg/Scripts/Tween/TweenManager.lsc/**/*.ts"
   ]
 }
