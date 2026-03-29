@@ -93,7 +93,8 @@ function applyHandVolume() {
     } else {
         on = fingerUp(script.fingerIndex);
     }
-    player.amplitude = on ? script.amplitude : 0;
+    var scratchVol = (global.scratchVolume != null) ? global.scratchVolume : 1.0;
+    player.amplitude = on ? (script.amplitude * scratchVol) : 0;
     isPlaying = on;
 }
 

@@ -27,7 +27,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: 19812f35cc5f5b97c01f1dde4e2ec5b4
+  iconHash: ""
   videoPreviewHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.19.2.26031623
