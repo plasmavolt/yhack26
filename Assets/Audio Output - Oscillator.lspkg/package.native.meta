@@ -1,4 +1,8 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/35fef853-d5ef-b8b1-e58b-437bb85e18b5>
+=======
+- !<AssetImportMetadata/4dfdb526-707a-04c0-fc4d-caf19008fecd>
+>>>>>>> REMOTE
   ImportedAssetIds:
     NativePackageDescriptor: !<reference> d2c92f65-91dd-4eed-9332-57af0428921a
   ImporterName: NativePackageDescriptorImporter

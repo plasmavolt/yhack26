@@ -1,4 +1,8 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/a912a5ae-9cfc-7ce7-61fc-c667067537fa>
+=======
+- !<AssetImportMetadata/603e83c2-be92-d933-5e32-ced85a218983>
+>>>>>>> REMOTE
   ImportedAssetIds:
     Texture: !<reference> 83d463d7-e7a2-45b8-90a5-467c4b747f8d
   ImporterName: ProxyTextureImporter

@@ -1,4 +1,8 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/bc5e326e-1c02-1252-e471-20b4f6d47d7b>
+=======
+- !<AssetImportMetadata/8e2d757d-45a4-e155-a947-12a28f90410f>
+>>>>>>> REMOTE
   ImportedAssetIds:
     Font: !<reference> 36b4f593-18cb-4e97-882b-204ccfc5e821
   ImporterName: FontImporter

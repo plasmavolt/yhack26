@@ -1,0 +1,99 @@
+- !<Material/69745ada-be4f-4106-94f3-2cb057def86f>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> c7092a7c-ceea-4fec-bd6d-0aa22e9ec5f2
+- !<PassInfo/c7092a7c-ceea-4fec-bd6d-0aa22e9ec5f2>
+  CachedProperties:
+    - Port_Default_N132:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - emissiveTexBorderColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - emissiveTexDims:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - emissiveTexTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - emissiveTexUvMinMax:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - overrideTimeDelta:
+        typeIdx: 1
+        value: 0.000000
+    - overrideTimeElapsed:
+        typeIdx: 1
+        value: 0.000000
+    - overrideTimeEnabled:
+        typeIdx: 0
+        value: 0
+  DepthWrite: true
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - NODE_13_DROPLIST_ITEM 1
+    - NODE_181_DROPLIST_ITEM 0
+    - NODE_184_DROPLIST_ITEM 0
+    - NODE_228_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_315_DROPLIST_ITEM 0
+    - NODE_38_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 3
+    - NODE_76_DROPLIST_ITEM 0
+    - Tweak_N223
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_AO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 0.999969, z: 0.999985}
+    Port_Default_N134:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Default_N173:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Default_N369:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Port_Value2_N073:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.999619, y: 1.000000, z: 0.032181, w: 1.000000}
+    emissiveColor:
+      typeIdx: 4
+      value: {x: 0.996414, y: 1.000000, z: 0.000000}
+    emissiveIntensity:
+      typeIdx: 1
+      value: 0.800000
+    emissiveTex:
+      typeIdx: 9
+      value:
+        id: 16ef01b0-085a-4c8a-aab3-7ae5ed0baf8a
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    progress_value:
+      typeIdx: 1
+      value: 0.000000
+  Pass: !<reference> d0b2f654-d7e8-48f5-a233-36dcc709b274

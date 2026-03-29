@@ -1,4 +1,8 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/a17526b1-3e90-4d8f-afb2-97dc9d012216>
+=======
+- !<AssetImportMetadata/0c22c51b-2e0b-80ee-60ca-6e35275a2429>
+>>>>>>> REMOTE
   ImportedAssetIds:
     FileMesh: !<reference> 7f5a73b5-bb8a-4360-a17c-cb24396608a3
   ImporterName: FileMeshImporter

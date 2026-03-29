@@ -1,0 +1,40 @@
+- !<NativePackageDescriptor/35ac79d7-70a6-495d-9bfb-02203273145c>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 19
+    patch: 2
+    build: 26031623
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    Showcases how to read audio data from the microphone, save it to the array and playback with the BufferPlayer.
+    
+    https://docs.snap.com/lens-studio/essential-skills/audio/audio-templates/audio-output#record-sample
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 92
+  ExportUid: a366eacd-e342-482f-a3a0-02c174e10ffd
+  ComponentUid: 3f1c468a-7b8c-4ad7-9cfa-7f33e58a0f01
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

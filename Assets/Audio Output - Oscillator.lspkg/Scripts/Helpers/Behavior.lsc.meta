@@ -1,3 +1,4 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/4305b3ac-d5ed-a952-d135-966ab0315f37>
   ImportedAssetIds:
     5db4c052-78f6-480c-ad00-b9d19b7d77c3: !<reference> 13415d4f-9826-4bb5-9c98-abdc5bc89977
@@ -5,6 +6,13 @@
     a92b8e3e-690d-4b45-b744-161ceabc0ffc: !<reference> ba5dd4ab-8600-4241-a3f6-07258313a3e8
   ImporterName: NativePackageImporter
   PrimaryAsset: !<reference> ba5dd4ab-8600-4241-a3f6-07258313a3e8
+=======
+- !<AssetImportMetadata/0286f6c4-75ed-8c73-17cd-8ff8a7a8afe1>
+  ImportedAssetIds:
+    {}
+  ImporterName: NativePackageImporter
+  PrimaryAsset: !<reference> a92b8e3e-690d-4b45-b744-161ceabc0ffc
+>>>>>>> REMOTE
   PackageType: PackedNativePackageRoot
   LegacyPackagePolicy: ~
   ExtraData:

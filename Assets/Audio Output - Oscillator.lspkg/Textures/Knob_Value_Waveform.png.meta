@@ -1,4 +1,8 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/7c780dec-90cd-ac8b-e8df-d793943957bd>
+=======
+- !<AssetImportMetadata/816faa04-1001-7500-c1e6-f6a01d7a22b3>
+>>>>>>> REMOTE
   ImportedAssetIds:
     Texture: !<reference> 681b1e21-80d2-4146-83c3-930e01002f41
   ImporterName: FileTextureImporter

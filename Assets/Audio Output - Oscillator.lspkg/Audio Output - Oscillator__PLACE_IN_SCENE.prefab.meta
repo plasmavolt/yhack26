@@ -1,4 +1,8 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/4792d6c4-4a40-5b6f-fadb-8c27a75eed6f>
+=======
+- !<AssetImportMetadata/c4ff66c1-7a42-2657-7176-e12c3345486c>
+>>>>>>> REMOTE
   ImportedAssetIds:
     ObjectPrefab: !<reference> 0d59ea69-b188-4331-adbf-67ab08c6ba09
   ImporterName: ObjectPrefabImporter
@@ -47,7 +51,11 @@
   Fill: !<TextFill>
     Mode: Solid
     Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+<<<<<<< LOCAL
     Texture: !<reference> 815d0418-a985-47ca-86c5-fbed2a030cc0
+=======
+    Texture: !<reference> 8653bbb1-52b3-4b55-ae90-a849218d0119
+>>>>>>> REMOTE
     ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     TileCount: 5.000000
     TileZone: Rect
@@ -1719,7 +1727,11 @@
   BlendShapes:
     {}
 - !<ObjectPrefabAssetData/c9a72d7e-4472-4ea0-8bee-775878516193>
+<<<<<<< LOCAL
   Prototype: !<ObjectOwner/9617e83f-b517-4e40-b9cd-c7e2ce73c113>
+=======
+  Prototype: !<ObjectOwner/bde3344b-f4f3-406b-b71f-e76f2e98bd98>
+>>>>>>> REMOTE
     PackagePath: ""
     objects:
       - !<own> 8882929b-f86d-489a-53e9-9da07bfa2089
@@ -1728,7 +1740,11 @@
     []
   Name: Behavior
   Enabled: true
+<<<<<<< LOCAL
   ScriptAsset: !<reference> ba5dd4ab-8600-4241-a3f6-07258313a3e8
+=======
+  ScriptAsset: !<reference> a92b8e3e-690d-4b45-b744-161ceabc0ffc
+>>>>>>> REMOTE
   ScriptInputsDefault:
     touchEventEventType: true
     touchEventTouchTarget: true

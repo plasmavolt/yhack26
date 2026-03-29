@@ -1,4 +1,8 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/422d2995-1d93-8e24-6aa9-2b1e4d64fbae>
+=======
+- !<AssetImportMetadata/eee6dd17-ec20-c39b-146b-c74c41960c91>
+>>>>>>> REMOTE
   ImportedAssetIds:
     Material: !<reference> 157cedc0-e21e-49ec-bc41-d9b3c950a883
   ImporterName: MaterialImporter

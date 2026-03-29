@@ -1,4 +1,8 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/166bffb1-24f3-bccd-534e-1c5705bae3e9>
+=======
+- !<AssetImportMetadata/9a149a07-eee0-fbc5-de49-2086402069aa>
+>>>>>>> REMOTE
   ImportedAssetIds:
     JavaScriptAsset: !<reference> 079e3c0b-858f-45ac-b9a3-64a33930e0a7
   ImporterName: JavaScriptAssetImporter

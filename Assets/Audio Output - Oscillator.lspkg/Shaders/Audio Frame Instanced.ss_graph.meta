@@ -1,4 +1,8 @@
+<<<<<<< LOCAL
 - !<AssetImportMetadata/c51bdc71-ffd4-7f09-fdba-fbad5267c790>
+=======
+- !<AssetImportMetadata/0300390f-a55f-b32c-4d6c-2338dd2568d9>
+>>>>>>> REMOTE
   ImportedAssetIds:
     ShaderGraph: !<reference> 562fa5c5-3b8f-4b58-bfb7-944c893933a1
   ImporterName: ShaderGraphPassImporter
